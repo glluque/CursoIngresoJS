@@ -4,6 +4,9 @@
 */
 function Mostar()
 {
-	
+	var nombre;
+ 	nombre=prompt("ingrese su nombre");
+ 	document.getElementById('elNombre').value=nombre;
+ 	//al poner =nombre despues de value me devuelve lo que yo complete antes, en lugar de usarlo como variable.
 }
 
