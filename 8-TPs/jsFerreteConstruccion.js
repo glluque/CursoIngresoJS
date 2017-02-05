@@ -12,17 +12,26 @@ function Rectangulo ()
 	terrenoLargo=document.getElementById('Largo').value;
 	terrenoAncho=document.getElementById('Ancho').value;
 	//terrenoRadio=document.getElementById('Radio').value;
-	terrenoLargo=parseInt('Largo');
-	terrenoAncho=parseInt('Ancho');
+	terrenoLargo=parseInt(terrenoLargo);
+	terrenoAncho=parseInt(terrenoAncho);
 	//terrenoRadio=parseInt('Radio');
-	var perimetro=terrenoLargo*2+terrenoAncho*2;
-	var alambresTres=perimetro*3
-	alert("perimetro de alambres requerido " +alambresTres);
+	var perimetro=2*terrenoLargo+2*terrenoAncho;
+	var alambreTres=perimetro*3;
+	alert("Son requeridos "+alambreTres+" metros de alambre");
+	//NaN en js es Not a number
+	//el NaN era porque estaba indicando el parseInt "Largo" en lugar de terrenoLargo, lo mismo con terrenoAncho
 
 }
 function Circulo () 
 {
-	
+	var terrenoRadio;
+	terrenoRadio=document.getElementById('Radio').value;
+	terrenoRadio=parseInt(terrenoRadio);
+	var diametro=terrenoRadio*terrenoRadio;
+	var circunferencia= diametro*3.14;
+	alert("Son requeridos "+circunferencia+" metros de alambre");
+	//no olvidar poner + para concatenar
+
 }
 function Materiales () 
 {
