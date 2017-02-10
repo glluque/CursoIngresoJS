@@ -7,11 +7,11 @@ function Mostrar()
 	{
 		alert("Es mayor");
 	}
-	if(edad>=13 && edad<=17);
+	else if(edad<18 && edad>12)
 	{
 		alert("Es adolecente");
 	}
-	if(edad<=12)
+	else
 	{
 		alert("Es un niño");
 	}

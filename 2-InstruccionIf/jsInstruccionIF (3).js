@@ -19,4 +19,6 @@ if(edad>=18)
 	else //no lleva condicion por ahora
 	{
 		alert("Usted es menor de edad");
+	}
+	
 }//FIN DE LA FUNCIÓN

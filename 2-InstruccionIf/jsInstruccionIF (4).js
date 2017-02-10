@@ -12,7 +12,7 @@ function Mostrar()
 	}
 	*/
 
-	if(edad>18 && edad>12)
+	if(edad<18 && edad>=12)
 	{
 		alert("Usted es un adolecente");
 	} 
