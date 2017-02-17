@@ -6,6 +6,32 @@ function Mostrar()
 	var negativo=1;
 	
 	var respuesta='si';
+	var numero;
+	
+	//var respuesta='si';
+	while(respuesta=='si')
+	{
+		contador++;
+		numero=prompt("Ingresando numeros");
+		numero=parseInt(numero);
+
+		if(numero>1)
+		{
+			positivo=positivo+numero;
+			respuesta=prompt("Ingrese 'si' para continuar ó cualquier tecla para finalizar");
+			
+		}
+		else if(numero<0)
+			{
+				negativo=negativo*numero;
+				respuesta=prompt("Ingrese 'si' para continuar ó cualquier tecla para finalizar"); //FUNCIONA
+			}
+		/*if(numero<0)
+		{
+			negativo=negativo*numero;
+			respuesta=prompt("Ingrese 'si' para continuar ó cualquier tecla para finalizar");
+		}*/ //FUNCIONA
+	}
 
 
 document.getElementById('suma').value=positivo;
