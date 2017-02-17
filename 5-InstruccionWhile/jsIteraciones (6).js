@@ -18,7 +18,8 @@ function Mostrar()
 	}
 
 	promedio=acumulador/numero; //supongo que esta bien
-	
+	//fijar si en lugar de acumulador/numero, no iria contador.
+
 	document.getElementById('suma').value=acumulador;
 	document.getElementById('promedio').value=promedio;
 
