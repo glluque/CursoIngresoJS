@@ -1,7 +1,13 @@
 function Mostrar()
 {
+	//ingreso variables
+	var repetciones = prompt("ingrese el número de repeticiones");
+	var contador;
 
-var repetciones = prompt("ingrese el número de repeticiones");
+	var mensaje="Hola UTN FRA";
+
+	//ingreso condiciones
+	for(contador=)
 
 
 
